@@ -1,0 +1,90 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  background-color: #000;
+}
+.contener {
+  width: 25%;
+  height: 650px;
+  background-color: #333;
+  float: left;
+}
+.contener img {
+  width: 45%;
+  border: 5px solid orange;
+  border-radius: 100px;
+  margin: 65px 90px 0 90px;
+}
+.contener h1,
+p {
+  font-family: sans-serif;
+  text-align: center;
+  color: #fff;
+  margin: 10px 0;
+}
+.contener p {
+  font-size: 20px;
+}
+.contener button {
+  width: 270px;
+  margin: 5px 35px;
+  padding: 13px 0;
+  background-color: #444;
+  border-radius: 40px;
+  border: none;
+  text-align: center;
+  font-family: sans-serif;
+  color: #fff;
+  font-size: 18px;
+}
+.contener button:hover {
+  cursor: pointer;
+  background-color: orange;
+}
+.education {
+  width: 100%;
+}
+.education h2:first-child {
+  color: #fff;
+  font-size: 32px;
+  text-align: center;
+  padding: 20px;
+}
+.education span {
+  color: orange;
+}
+.education hr {
+  width: 880px;
+  margin-left: 400px;
+}
+.data {
+  width: 275px;
+  height: 300px;
+  float: left;
+  margin: 20px;
+  padding-top: 10px;
+}
+.data p:last-child,
+h2 {
+  font-family: sans-serif;
+  color: #fff;
+  text-align: left;
+}
+.data p:first-child {
+  border: 1px solid #333;
+  background-color: #333;
+  padding: 5px;
+  border-radius: 20px;
+  width: 60px;
+}
+.education .data:nth-child(3),
+.data:nth-child(7) {
+  margin-left: 70px;
+}
+.education .data:nth-child(9),
+.data:nth-child(8),
+.data:nth-child(7) {
+  margin-top: -90px;
+}
